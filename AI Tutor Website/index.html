@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendation Blog Website</title>
+    <!-- Link To CSS-->
+     <link rel="stylesheet" href="/css/style.css">
+     <!-- Box Icons-->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header style="position: relative !important">
+        <div class="nav container" id="authButtons">
+            <!-- Logo -->
+            <a href="#" class="logo">Tutor.<span>ai</span></a>
+            
+            <!-- New DIV: Email & Log out button -->
+            <div id="email-logout-div" style="display: none;">
+                <b id="homepg-email"/>Email</b>
+                <button id="logout-btn" style="background-color: red; color: white;">Log out</button>
+            </div>
+            
+            <!-- Signup Btn -->
+            <a href="/signup.html" class="loginH" id="signup-pg-cta">Signup</a>
+            <!-- Login Btn -->
+            <a href="/login.html" class="loginH" id="login-pg-cta">Login</a>
+        </div>
+    </header>
+    <!-- Home -->
+     <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">AI TUTOR ASSISTANT</h2>
+            <u><span class="home-subtitle">Your Source Of Information</span></u>    
+        </div>
+     </section>
+     <!-- Post Filter -->
+      <div class="post-filter container">
+        <span class="filter-item active-filter" data-filter='all'>All</span>
+        <span class="filter-item" data-filter='design'>CS Engineering</span>
+        <span class="filter-item" data-filter='tech'>Mechanical Engineering</span>
+        <span class="filter-item" data-filter='mobile'>Electrical Engineering</span>
+      </div>
+      <!-- Posts -->
+       <section class="post container">
+        <!-- Post Box 1 -->
+         <div class="post-box design">
+            <img src="img/project.jpg" alt="" class="post-img">
+            <h2 class="category">CS Engineering</h2>
+            <a href="post-page.html" class="post-title">
+                Best Courses for CSE students
+            </a>
+            <span class="post-date">16 Aug 2024</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ducimus nam. Sint esse eius culpa voluptas, repellat iste a necessitatibus! Voluptatem harum corporis quisquam quaerat!</p>
+            <!-- Profile -->
+             <div class="profile">
+                <img src="img/profileimg1.jpg" alt="" class="profile-img">
+                <spanspan class="profile-name">Aadil Siddique</spanspan>
+             </div>
+         </div>
+          <!-- Post Box 2 -->
+          <div class="post-box tech">
+            <img src="img/photomode_16052024_195048.png" alt="" class="post-img">
+            <h2 class="category">Mechanical Engineering</h2>
+            <a href="post-page2.html" class="post-title">
+                Best Courses for Mechanical students
+            </a>
+            <span class="post-date">16 Aug 2024</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ducimus nam. Sint esse eius culpa voluptas, repellat iste a necessitatibus! Voluptatem harum corporis quisquam quaerat!</p>
+            <!-- Profile -->
+            <div class="profile">
+                <img src="img/profileimg2.jpeg" alt="" class="profile-img">
+                <spanspan class="profile-name">Aadil Siddique</spanspan>
+            </div>
+        </div>
+              <!-- Post Box 3 -->
+         <div class="post-box mobile">
+            <img src="img/Screenshot 2023-07-20 104734.png" alt="" class="post-img">
+            <h2 class="category">Electrical Engineering</h2>
+            <a href="post-page3.html" class="post-title">
+                Best Courses for Game Developer students
+            </a>
+            <span class="post-date">16 Aug 2024</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ducimus nam. Sint esse eius culpa voluptas, repellat iste a necessitatibus! Voluptatem harum corporis quisquam quaerat!</p>
+            <!-- Profile -->
+            <div class="profile">
+                <img src="img/profileimg3.jpg" alt="" class="profile-img">
+                <spanspan class="profile-name">Aadil Siddique</spanspan>
+            </div>
+         </div>
+
+         <!-- Post Box 4 -->
+         <div class="post-box design">
+            <img src="img/project.jpg" alt="" class="post-img">
+            <h2 class="category">CS Engineering</h2>
+            <a href="post-page4.html" class="post-title">
+                Best Programming Languages for CSE students
+            </a>
+            <span class="post-date">16 Aug 2024</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ducimus nam. Sint esse eius culpa voluptas, repellat iste a necessitatibus! Voluptatem harum corporis quisquam quaerat!</p>
+            <!-- Profile -->
+             <div class="profile">
+                <img src="img/profileimg1.jpg" alt="" class="profile-img">
+                <spanspan class="profile-name">Aadil Siddique</spanspan>
+             </div>
+         </div>
+          <!-- Post Box 5 -->
+          <div class="post-box tech">
+            <img src="img/photomode_16052024_195048.png" alt="" class="post-img">
+            <h2 class="category">Mechanical Engineering</h2>
+            <a href="post-page5.html" class="post-title">
+                Best Programming Languages for Mechanical students
+            </a>
+            <span class="post-date">16 Aug 2024</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ducimus nam. Sint esse eius culpa voluptas, repellat iste a necessitatibus! Voluptatem harum corporis quisquam quaerat!</p>
+            <!-- Profile -->
+            <div class="profile">
+                <img src="img/profileimg2.jpeg" alt="" class="profile-img">
+                <spanspan class="profile-name">Aadil Siddique</spanspan>
+            </div>
+        </div>
+              <!-- Post Box 6 -->
+         <div class="post-box mobile">
+            <img src="img/Screenshot 2023-07-20 104734.png" alt="" class="post-img">
+            <h2 class="category">Electrical Engineering</h2>
+            <a href="post-page6.html" class="post-title">
+                Best Programming Languages for Electrical students
+            </a>
+            <span class="post-date">16 Aug 2024</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ducimus nam. Sint esse eius culpa voluptas, repellat iste a necessitatibus! Voluptatem harum corporis quisquam quaerat!</p>
+            <!-- Profile -->
+            <div class="profile">
+                <img src="img/profileimg3.jpg" alt="" class="profile-img">
+                <spanspan class="profile-name">Aadil Siddique</spanspan>
+            </div>
+         </div>
+
+         <!-- Post Box 7 -->
+         <div class="post-box design">
+            <img src="img/project.jpg" alt="" class="post-img">
+            <h2 class="category">CS Engineering</h2>
+            <a href="post-page7.html" class="post-title">
+                Best Books for CSE students
+            </a>
+            <span class="post-date">16 Aug 2024</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ducimus nam. Sint esse eius culpa voluptas, repellat iste a necessitatibus! Voluptatem harum corporis quisquam quaerat!</p>
+            <!-- Profile -->
+             <div class="profile">
+                <img src="img/profileimg1.jpg" alt="" class="profile-img">
+                <spanspan class="profile-name">Aadil Siddique</spanspan>
+             </div>
+         </div>
+          <!-- Post Box 8 -->
+          <div class="post-box tech">
+            <img src="img/photomode_16052024_195048.png" alt="" class="post-img">
+            <h2 class="category">Mechanical Engineering</h2>
+            <a href="post-page8.html" class="post-title">
+                Best Books for Mechanical students
+            </a>
+            <span class="post-date">16 Aug 2024</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ducimus nam. Sint esse eius culpa voluptas, repellat iste a necessitatibus! Voluptatem harum corporis quisquam quaerat!</p>
+            <!-- Profile -->
+            <div class="profile">
+                <img src="img/profileimg2.jpeg" alt="" class="profile-img">
+                <spanspan class="profile-name">Aadil Siddique</spanspan>
+            </div>
+        </div>
+              <!-- Post Box 9 -->
+         <div class="post-box mobile">
+            <img src="img/Screenshot 2023-07-20 104734.png" alt="" class="post-img">
+            <h2 class="category">Electrical Engineering</h2>
+            <a href="post-page9.html" class="post-title">
+                Best Books for Electrical students
+            </a>
+            <span class="post-date">16 Aug 2024</span>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ducimus nam. Sint esse eius culpa voluptas, repellat iste a necessitatibus! Voluptatem harum corporis quisquam quaerat!</p>
+            <!-- Profile -->
+            <div class="profile">
+                <img src="img/profileimg3.jpg" alt="" class="profile-img">
+                <spanspan class="profile-name">Aadil Siddique</spanspan>
+            </div>
+         </div>
+
+         <!-- Can Add More Post Boxes For ,Flowcharts, etc. also change date and autor names and description -->
+        </section>
+        <!-- Footer -->
+         <div class="footer container">
+            <p>&#169 Vidya All Rights Reserved</p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+         </div>
+
+
+
+
+    <!-- JQuery Link -->
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+    <!-- Link To JS -->
+    <script type="module" src="/js/main.js"></script> 
+    <script type="module" src="/js/logout.js"></script> 
+    <script type="module" src="/js/fb.js"></script> 
+    <script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/f972fcd5-5f79-4842-9fa8-836cc12467c7/webchat/v2.1/config.js"></script>
+</body>
+</html>
